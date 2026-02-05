@@ -93,11 +93,11 @@
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 1,
+		"culture": 6,
 		"turnsToBuild": 4,
 		"techRequired": "Archaeology",
 		"uniques": [
-			"[+1 Culture] <for every [Era number]>", // +1 Culture for each era of difference between the era of origin of the Antiquity Site and the current era
+			// TODO: +1 Culture for each era of difference between the era of origin of the Antiquity Site and the current era
 			"Great Improvement",
 			"Can also be built on tiles adjacent to fresh water <hidden from users>",
             "Can only be built to improve a resource <hidden from users>",
